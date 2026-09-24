@@ -63,6 +63,7 @@ Always use the provided Context Data to answer the user's query accurately in En
         ai_response = ollama.chat(
             # model='deepseek-r1:8b',
             model='gemma3:4b',
+            # model='gemma3:12b',
             messages=[
                 {'role': 'system', 'content': system_instruction},
                 {'role': 'user', 'content': full_prompt}
