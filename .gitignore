@@ -1,0 +1,19 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Environment / Sensitive Data (လုံခြုံရေးအရ Git ပေါ်မတင်ပါ)
+.env
+
+# Python Cache & Compiled Files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Mac OS Specific
+.DS_Store
+
+# IDE / Editor Folders
+.vscode/
+.idea/
