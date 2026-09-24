@@ -80,5 +80,5 @@ Always use the provided Context Data to answer the user's query accurately in En
     except Exception as e:
         bot.reply_to(message, f"⚠️ Error: {str(e)}")
 
-print("🚀 Local AI Telegram Bot စတင် run နေပါပြီ...")
+print("🚀 Local AI Telegram Bot running now...")
 bot.infinity_polling()
